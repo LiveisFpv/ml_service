@@ -3,6 +3,8 @@ version: '3.3'
 services:
     server:
         build: .
-        command: python3 /server/server.py
+        command: python3 main.py
         volumes:
             - ./grpc_compiled:/usr/app/grpc_compiled
+        ports:
+            - 8000:8000

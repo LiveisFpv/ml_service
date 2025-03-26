@@ -1,0 +1,11 @@
+pandas
+grpcio
+grpcio-tools
+protobuf
+fastapi
+pydantic
+uvicorn
+numpy
+seaborn
+matplotlib
+scikit-learn
